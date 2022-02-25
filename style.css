@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Outfit:wght@300;400;600&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background: hsl(216, 50%, 16%);
+    padding: 20px;
+    width: 320px;
+    border-radius: 16px;
+}
+
+.equilibrium {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.texto1 h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto1 p {
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+
+.preco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.preco h2 {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.preco p {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.linha {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.creator {
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+strong {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+    margin-right: 20px;
+    width: 35px;
+}
